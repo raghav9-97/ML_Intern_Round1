@@ -37,8 +37,6 @@ features['importance'] = regression.feature_importances_
 features.sort_values(by=['importance'],ascending=True,inplace=True)
 features.set_index('feature',inplace=True)
 
-features.plot(kind='barh',figsize=(100,100))
-
 model = SelectFromModel(regression,prefit=True)
 train_reduced = model.transform(train)
 test_reduced = model.transform(test)
