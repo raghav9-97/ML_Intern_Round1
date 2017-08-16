@@ -26,7 +26,6 @@ def sigmoid(x,deriv=False):
         return x*(1-x)
     return 1/(1 + np.exp(-x))
 
-#
 for i in range(1,100):
 #Forward Propagation
     l0 = X
