@@ -52,5 +52,4 @@ for i in range(1,100):
     b1 = b1 + l1_del
     b2 = b2 + l2_del
     b3 = b3 + l3_del
-    
-    
+#The number of iterations of the function can be varied according to the accuracy of the result.
