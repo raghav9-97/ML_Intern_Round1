@@ -53,3 +53,9 @@ for i in range(1,100):
     b2 = b2 + l2_del
     b3 = b3 + l3_del
 #The number of iterations of the function can be varied according to the accuracy of the result.
+print("Output 1:",l3[0])
+print("Error 1:",l3_error[0])
+print("Output 2:",l3[1])
+print("Error 2:",l3_error[1])
+print("Output 3:",l3[2])
+print("Error 3:",l3_error[2])
